@@ -26,7 +26,7 @@ abstract: ""
 summary: "revise and resubmit, Review of Economic Studies"
 
 tags:
-- revise and resubmit, Review of Economic Studies
+- 
 featured: false
 
 # links:
