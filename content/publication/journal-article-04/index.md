@@ -23,7 +23,7 @@ publication_short: ""
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: "This paper supersedes our previously circulated draft "Sophistication and Cautiousness in College Applications"
+summary: "This paper supersedes our previously circulated draft"
 
 tags:
 - 
