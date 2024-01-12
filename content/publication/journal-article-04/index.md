@@ -26,7 +26,7 @@ abstract: ""
 summary: "This paper supersedes our previously circulated draft"
 
 tags:
-- 
+- This paper supersedes our previously circulated draft
 featured: false
 
 # links:
