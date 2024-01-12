@@ -26,7 +26,7 @@ abstract: ""
 summary: "This paper supersedes our previously circulated draft"
 
 tags:
-- This paper supersedes our previously circulated draft
+- This paper supersedes our previously circulated draft Sophistication and Cautiousness in College Applications
 featured: false
 
 # links:
