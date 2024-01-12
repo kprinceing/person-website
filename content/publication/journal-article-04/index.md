@@ -17,7 +17,7 @@ publishDate: "2020-12-07T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "This paper supersedes our previously circulated draft "Sophistication and Cautiousness in College Applications"".
+publication: "This paper supersedes our previously circulated draft "Sophistication and Cautiousness in College Applications".
 publication_short: ""
 
 abstract: ""
