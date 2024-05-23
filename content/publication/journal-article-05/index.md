@@ -1,12 +1,14 @@
 ---
-title: "Noncognitive skills and gender gap in test scores"
+title: "College Applications under Demand Uncertainty" 
 authors:
 - admin
-date: "2021-01-01T00:00:00Z"
-doi: "https://doi.org/10.1080/00036846.2021.1883189"
+- Kentaro Tomoeda
+- Xiaoyu Xia
+date: "2020-12-07T00:00:00Z"
+doi: "http://dx.doi.org/10.2139/ssrn.3711118"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-01-01T00:00:00Z"
+publishDate: "2020-12-07T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -15,21 +17,21 @@ publishDate: "2021-01-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Applied Economics, 53.29 (2021): 3423-3437"
+publication: ""
 publication_short: ""
 
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: "Applied Economics, 53.29 (2021): 3423-3437"
+summary: "This paper supersedes our previously circulated draft Sophistication and Cautiousness in College Applications"
 
 tags:
-- Applied Economics
+- This paper supersedes our previously circulated draft Sophistication and Cautiousness in College Applications
 featured: false
 
 # links:
 # - name: ""
-#   url: ""
+url: ""
 url_pdf: ''
 url_code: ''
 url_dataset: ''
@@ -40,11 +42,11 @@ url_source: ''
 url_video: ''
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: '[**Source**](https://unsplash.com/photos/KhStXRVhfog)'
-  focal_point: ""
-  preview_only: false
+caption: '[**Source**](https://unsplash.com/photos/KhStXRVhfog)'
+focal_point: ""
+preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
