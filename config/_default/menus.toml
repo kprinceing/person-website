@@ -34,3 +34,4 @@ weight = 20
 #    name = "CV"
 #    url = "files/cv.pdf"
 #    weight = 70
+ssh-keygen -t ed25519 -C "kprinceing@gmail.com"
