@@ -31,7 +31,7 @@ tags:
 # links:
 # - name: ""
 url: ""
-url_pdf: 'Land_auction_ms.pdf'
+url_pdf: 'files/Land_auction_ms.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
