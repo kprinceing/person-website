@@ -26,7 +26,7 @@ summary: "Health Economics, 27.11 (2018): 1717-1737."
 
 tags:
 - Health Economics
-featured: false
+featured: fals
 
 # links:
 # - name: ""
