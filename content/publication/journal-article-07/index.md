@@ -18,7 +18,7 @@ publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Games and Economic Behavior"
-publication_short: ""
+publication_short: "GEB"
 
 abstract: ""
 
