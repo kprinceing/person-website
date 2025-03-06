@@ -23,7 +23,7 @@ publication_short: "GEB"
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: "Reject and Resubmit"
+summary: "Reject and Resubmit at Games and Economic Behavior"
 
 tags:
 - 
