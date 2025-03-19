@@ -42,11 +42,14 @@ subtitle = ""
  css_class = ""
 +++
 
-## Research Grants
-
-### National Science Foundation
-- **Title of Grant**: [Grant Title]
-- **Amount**: $XXX,XXX
-- **Period**: 20XX-20XX
+#### Shandong Province Natural Science Grant (Grant No.ZR2023QG082)
+- **Period**: 2024-2026
 - **Role**: Principal Investigator
 
+### National Natural Science General Grant (Grant No.72473081)
+- **Period**: 2024-2026
+- **Role**: Participating
+
+### National Natural Science Foundation of China (Grant No.72442002).
+- **Period**: 2024-2026
+- **Role**: Participating 
