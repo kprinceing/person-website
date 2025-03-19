@@ -12,7 +12,7 @@ subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "2"
+  columns = "1"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -50,15 +50,3 @@ subtitle = ""
 - **Period**: 20XX-20XX
 - **Role**: Principal Investigator
 
-### National Institutes of Health
-- **Title of Grant**: [Grant Title]
-- **Amount**: $XXX,XXX
-- **Period**: 20XX-20XX
-- **Role**: Co-Investigator
-
-## Fellowship Awards
-
-### Example Fellowship
-- **Title**: [Fellowship Name]
-- **Amount**: $XX,XXX
-- **Period**: 20XX-20XX 
