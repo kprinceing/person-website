@@ -16,7 +16,7 @@ weight = 20
 [[main]]
 name = "Grants"
 url = "#grants"
-weight = 30
+weight = 60
 
 #[[main]]
 #  name = "Posts"
