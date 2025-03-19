@@ -13,6 +13,11 @@ name = "Research"
 url = "#publications"
 weight = 20
 
+[[main]]
+name = "Grants"
+url = "#grants"
+weight = 30
+
 #[[main]]
 #  name = "Posts"
 #  url = "#posts"
