@@ -13,6 +13,7 @@
 # url = "#publications"
 # weight = 20
 
+[[main]]
 name = "Publications"
 url = "#publications"
 weight = 20
