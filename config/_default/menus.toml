@@ -8,10 +8,19 @@
   url = "#experience"
   weight = 10
 
-[[main]]
-name = "Research"
+# [[main]]
+# name = "Research"
+# url = "#publications"
+# weight = 20
+
+name = "Publications"
 url = "#publications"
 weight = 20
+
+[[main]]
+name = "Working Papers"
+url = "#working_papers"
+weight = 25
 
 [[main]]
 name = "Grants"
