@@ -42,14 +42,8 @@ subtitle = ""
  css_class = ""
 +++
 
-#### Shandong Province Natural Science Grant (Grant No.ZR2023QG082)
-- **Period**: 2024-2026
-- **Role**: Principal Investigator
+#### Shandong Province Natural Science Grant (Grant No.ZR2023QG082), 2024-2026, Principal Investigator
 
-#### National Natural Science General Grant (Grant No.72473081)
-- **Period**: 2025-2028
-- **Role**: Participating
+#### National Natural Science General Grant (Grant No.72473081), 2025-2028, Participating
 
-#### National Natural Science Foundation of China (Grant No.72442002).
-- **Period**: 2025-2028
-- **Role**: Participating 
+#### National Natural Science Foundation of China (Grant No.72442002), 2025-2028, Participating 
