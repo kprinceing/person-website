@@ -23,7 +23,7 @@ publication_short: ""
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: "Under review"
+summary: "Revise and Resubmit at Journal of Urban Economics"
 
 tags:
 - 
