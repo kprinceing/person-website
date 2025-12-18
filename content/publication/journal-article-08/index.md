@@ -23,7 +23,7 @@ publication_short: ""
 abstract: ""
 
 # Summary. An optional shortened abstract.
-summary: "Revise & Resubmit at 管理科学学报"
+summary: "返修 at 管理科学学报"
 
 tags:
 - 
