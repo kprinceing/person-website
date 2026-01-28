@@ -3,5 +3,8 @@
     "env": {
       "HUGO_VERSION": "0.99.1"
     }
+  },
+  "projectSettings": {
+    "nodeVersion": "22.x"
   }
 }
