@@ -20,7 +20,16 @@ publication_types: ["3"]
 publication: ""
 publication_short: ""
 
-abstract: ""
+abstract: "This paper examines college application behavior in a centralized matching mar-
+ket where students face demand uncertainty. Using a large field dataset from Chinese
+college admissions, we provide evidence of demand uncertainty by exploiting varia-
+tion in assignment mechanisms and other institutional features. We estimate a model
+of student decision-making with heterogeneous strategies and find that, relative to
+the benchmark with correct common priors, about 15% of students applied more pes-
+simistically and 24% more optimistically. The welfare effects of assignment mechanisms
+are also heterogeneous: optimistic and pessimistic students with high priority benefited
+from the transition from the Immediate Acceptance mechanism to the Chinese Parallel
+mechanism."
 
 # Summary. An optional shortened abstract.
 summary: "Under review"

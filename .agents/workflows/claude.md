@@ -17,4 +17,4 @@ This workflow helps you quickly stage, commit, and push your changes to the mast
 
 4. Open the website to verify changes:
 // turbo
-`open https://kprinceing.github.io/person-website/`
+`open https://yansong.org/`
