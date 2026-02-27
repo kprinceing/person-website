@@ -22,7 +22,9 @@
 - The root `config.toml` is a placeholder; the active configuration is managed via the `config/_default/` directory.
 - `package.json` specifies Node.js 22.x.
 - Vercel configuration is present for easy deployment.
-- **Image Removal**: Created a template override in `layouts/partials/li_compact.html` to hide featured images from publication lists.
+- **Layout Compression**:
+  - Reduced global font size from `Large` to `Medium` in `params.toml`.
+  - Added theme-level spacing overrides in `assets/scss/custom.scss` to reduce vertical padding across home sections, profile, and list items.
 - **Interactive Abstracts**: Implemented a toggleable "Abstract" button in `layouts/partials/li_compact.html`.
   - Reordered buttons to show **Abstract** before other links (DOI, PDF, etc.).
   - Added CSS and JS for accordion-style toggle functionality.
