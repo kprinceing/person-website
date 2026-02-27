@@ -6,28 +6,28 @@
 {{ $link := $item.RelPermalink }}
 {{ $target := "" }}
 {{ if $item.Params.external_link }}
-  {{ $link = $item.Params.external_link }}
-  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ $link = $item.Params.external_link }}
+{{ $target = "target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
 {{ if eq $item.Type "talk" }}
-  {{ $show_authors_only = true }}
-  {{ $show_buttons = true }}
+{{ $show_authors_only = true }}
+{{ $show_buttons = true }}
 {{ else if eq $item.Type "publication" }}
-  {{ $show_authors_only = true }}
-  {{ $show_buttons = true }}
+{{ $show_authors_only = true }}
+{{ $show_buttons = true }}
 {{ else if eq $item.Type "project" }}
-  {{ $show_authors_only = true }}
-  {{ $show_buttons = true }}
+{{ $show_authors_only = true }}
+{{ $show_buttons = true }}
 {{ end }}
 
 {{/* Get summary. */}}
 {{ $summary := "" }}
 {{ if $item.Params.summary }}
-  {{ $summary = $item.Params.summary | markdownify | emojify }}
+{{ $summary = $item.Params.summary | markdownify | emojify }}
 {{ else if .Params.abstract }}
-  {{ $summary = .Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 135) }}
+{{ $summary = .Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 135) }}
 {{ else if $item.Summary }}
-  {{ $summary = $item.Summary }}
+{{ $summary = $item.Summary }}
 {{ end }}
 
 <div class="media stream-item">
@@ -62,15 +62,44 @@
         {{ partial "page_metadata_authors" $item }}
       </div>
       {{ else if not $show_authors_only }}
-        {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
+      {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
       {{ end }}
     </div>
 
     {{ if $show_buttons }}
     <div class="btn-links">
       {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+      {{ if .Params.abstract }}
+      <button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-toggle-abstract">
+        Abstract
+      </button>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ if .Params.abstract }}
+    <div class="abstract-content"
+      style="display: none; margin-top: 10px; padding: 10px; border-left: 3px solid #eee; background: #fdfdfd;">
+      {{ .Params.abstract | markdownify }}
     </div>
     {{ end }}
 
   </div>
 </div>
+
+{{ if .Params.abstract }}
+<script>
+  (function () {
+    const btn = document.currentScript.previousElementSibling.querySelector('.js-toggle-abstract');
+    const content = document.currentScript.previousElementSibling.querySelector('.abstract-content');
+    if (btn && content) {
+      btn.addEventListener('click', function (e) {
+        e.preventDefault();
+        const isHidden = content.style.display === 'none';
+        content.style.display = isHidden ? 'block' : 'none';
+        btn.classList.toggle('active', isHidden);
+      });
+    }
+  })();
+</script>
+{{ end }}
