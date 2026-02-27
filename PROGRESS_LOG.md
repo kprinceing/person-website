@@ -1,6 +1,6 @@
 # Progress Log - Person Website
 
-## project Overview
+## Project Overview
 - **Framework**: Hugo
 - **Theme**: Academic (Hugo Blox)
 - **Deployment**: Vercel ready (`vercel.json` present)
@@ -23,9 +23,18 @@
 - `package.json` specifies Node.js 22.x.
 - Vercel configuration is present for easy deployment.
 - **Image Removal**: Created a template override in `layouts/partials/li_compact.html` to hide featured images from publication lists.
+- **Interactive Abstracts**: Implemented a toggleable "Abstract" button in `layouts/partials/li_compact.html`.
+  - Reordered buttons to show **Abstract** before other links (DOI, PDF, etc.).
+  - Added CSS and JS for accordion-style toggle functionality.
+- **YAML Syntax Normalization**: Corrected the `abstract` field in multiple `index.md` files to use proper YAML literal block syntax (`|`), ensuring abstracts render correctly for both journal articles and working papers.
+- **Grants & Funding**: Updated `content/home/grants.md` with current grant details and roles.
+- **Workflow Automation**: Created `.agents/workflows/claude.md` to automate Git operations and website verification (`yansong.org`).
+
+## Deployment
+- All changes were pushed to the `master` branch and verified live on **[yansong.org](https://yansong.org/)**.
 
 ## Pending / Potential Next Steps
 - [ ] Review and update `config/_default/params.toml` for site-wide branding.
-- [ ] verify all publication links and PDFs.
+- [ ] Verify all publication links and PDFs.
 - [ ] Customize the `hero` section in `content/home/hero.md`.
 - [ ] Set up local development server to preview changes (`hugo server`).
