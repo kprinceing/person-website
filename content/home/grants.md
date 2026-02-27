@@ -59,7 +59,7 @@ subtitle = ""
  css_class = ""
 +++
 
-- **National Natural Science General Grant (国家自然科学基金 一般项目 No.72573095)**, 2026-2029, Principal Investigator
-- **Shandong Province Natural Science Grant (山东省自然科学基金 青年项目 No.ZR2023QG082)**, 2024-2026, Principal Investigator
-- **National Natural Science General Grant (国家自然科学基金 一般项目 Grant No.72473081)**, 2025-2028, Participating
-- **National Natural Science Foundation of China (国家自然科学基金 专项项目 Grant No.72442002)**, 2025-2028, Participating
+- **National Natural Science General Grant (国家自然科学基金 一般项目)** No.72573095, 2026-2029, Principal Investigator
+- **Shandong Province Natural Science Grant (山东省自然科学基金 青年项目)** No.ZR2023QG082, 2024-2026, Principal Investigator
+- **National Natural Science General Grant (国家自然科学基金 一般项目)** Grant No.72473081, 2025-2028, Participating
+- **National Natural Science Foundation of China (国家自然科学基金 专项项目)** Grant No.72442002, 2025-2028, Participating

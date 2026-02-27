@@ -33,7 +33,7 @@
 - **Workflow Automation**: Created `.agents/workflows/claude.md` to automate Git operations and website verification (`yansong.org`).
 - **Visual Enhancements**:
   - **Journal Name Bolding**: Bolded all journal names and revision statuses in publication summaries.
-  - **Grant Name Bolding**: Bolded English and Chinese grant names in the grants section for improved visibility.
+  - **Grant Name Bolding**: Refined bolding to cover only English and Chinese grant names (excluding grant numbers) and increased vertical spacing between item list for better readability.
 
 ## Deployment
 - All changes were pushed to the `master` branch and verified live on **[yansong.org](https://yansong.org/)**.
