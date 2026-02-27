@@ -35,7 +35,7 @@ motives. These results offer important implications for policies that seek to
 reduce drug expenditures by incentivizing the use of generic drugs."
 
 # Summary. An optional shortened abstract.
-summary: "Health Economics, 27.11 (2018): 1717-1737."
+summary: "**Health Economics**, 27.11 (2018): 1717-1737."
 
 tags:
 - Health Economics

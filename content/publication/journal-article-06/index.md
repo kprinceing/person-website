@@ -29,7 +29,7 @@ abstract: |
   We exploit a policy reform and implement various tests to support the hypothesis that developers strategically influence homebuyers’ expectations.
 
 # Summary. An optional shortened abstract.
-summary: "Revise and Resubmit at Journal of Urban Economics"
+summary: "Revise and Resubmit at **Journal of Urban Economics**"
 
 tags:
 - 

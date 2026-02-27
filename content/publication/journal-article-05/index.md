@@ -32,7 +32,7 @@ from the transition from the Immediate Acceptance mechanism to the Chinese Paral
 mechanism."
 
 # Summary. An optional shortened abstract.
-summary: "Under review"
+summary: "**Under review**"
 
 tags:
 - This paper supersedes our previously circulated draft Sophistication and Cautiousness in College Applications

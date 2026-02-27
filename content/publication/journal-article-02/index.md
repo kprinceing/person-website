@@ -35,7 +35,7 @@ abstract: |
   exam reduced the probability of mismatch by 18%.
 
 # Summary. An optional shortened abstract.
-summary: "Economics of Education Review, 68 (2019): 27-37."
+summary: "**Economics of Education Review**, 68 (2019): 27-37."
 
 tags:
 - Economics of Education Review

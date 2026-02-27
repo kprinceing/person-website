@@ -24,7 +24,7 @@ publication_short: ""
 abstract: "We examine the effect of media persuasion on educational choice, and find that Chi- nese newspaper articles on violence against doctors influence students’ decisions to study medicine at college. We match articles from over 1200 newspapers with an administrative dataset on college entrance enrollment from 2005 to 2011, and find that one additional article on anti-doctor violence leads to a 0.6% decrease in the number of students enrolled in medicine-related majors, and this effect is more pronounced for physician and nurs- ing majors. We perform a series of checks to ensure that the effect is driven by exposure to violence-related news rather than violent incidents themselves. An instrumental vari- able approach that exploits plausibly exogenous variations in local political turnover and province-wide violent incidents helps establish causality. Moreover, we find that exposure to violence-related news reduces the quality of medical students, measured by their rank in the college entrance examination. Our findings suggest that media coverage can change individuals’ perception of career risks and affect their educational choices."
 
 # Summary. An optional shortened abstract.
-summary: "Journal of Economic and Behavior Organization, 170(2020):1-19, lead article."
+summary: "**Journal of Economic and Behavior Organization**, 170(2020):1-19, lead article."
 
 tags:
 - Journal of Economic and Behavior Organization

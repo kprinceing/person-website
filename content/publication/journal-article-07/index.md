@@ -36,7 +36,7 @@ abstract: |
   interventions deserve policy attention.
 
 # Summary. An optional shortened abstract.
-summary: "Revise and Resubmit at Games and Economic Behavior"
+summary: "Revise and Resubmit at **Games and Economic Behavior**"
 
 tags:
 - 
