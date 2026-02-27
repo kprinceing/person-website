@@ -31,6 +31,9 @@
 - **YAML Syntax Normalization**: Corrected the `abstract` field in multiple `index.md` files to use proper YAML literal block syntax (`|`), ensuring abstracts render correctly for both journal articles and working papers.
 - **Grants & Funding**: Updated `content/home/grants.md` with current grant details and roles.
 - **Workflow Automation**: Created `.agents/workflows/claude.md` to automate Git operations and website verification (`yansong.org`).
+- **Visual Enhancements**:
+  - **Journal Name Bolding**: Bolded all journal names and revision statuses in publication summaries.
+  - **Grant Name Bolding**: Bolded English and Chinese grant names in the grants section for improved visibility.
 
 ## Deployment
 - All changes were pushed to the `master` branch and verified live on **[yansong.org](https://yansong.org/)**.
