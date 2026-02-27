@@ -18,7 +18,7 @@ publication_types: ["2"]
 publication: "Applied Economics, 53.29 (2021): 3423-3437"
 publication_short: ""
 
-abstract: ""
+abstract: "This article studies gender gap patterns in language and math during primary school periods in China, and investigates candidate theories to explain the observed patterns. Using an administrative test dataset, we find that girls on average outperform boys in language and have advantage in math in primary school. The gaps for language in all quantiles widen consistently over time. Female’s advantages in math in most quantiles, except the lowest, shrink over time. Using a survey on students in primary schools, we find that noncognitive skills can effectively reduce the gender gap in both Chinese and math. This effect is most pronounced for students in the bottom quantile group."
 
 # Summary. An optional shortened abstract.
 summary: "Applied Economics, 53.29 (2021): 3423-3437"
