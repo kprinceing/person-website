@@ -56,7 +56,7 @@ subtitle = ""
 
 # CSS class.
 
- css_class = ""
+ css_class = "wg-grants"
 +++
 
 - **National Natural Science General Grant (国家自然科学基金 一般项目)** No.72573095, 2026-2029, Principal Investigator
