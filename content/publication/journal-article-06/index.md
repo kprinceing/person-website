@@ -20,12 +20,13 @@ publication_types: ["3"]
 publication: ""
 publication_short: ""
 
-abstract: """This paper examines households’ extrapolative behaviors and developers’ strategic responses in China's land and housing markets.
-Our stylized model predicts that when households extrapolate in the housing market, developers with nearby
-land holdings strategically bid higher, anticipating rising housing prices to boost the value of their existing stock.
-Using the exogenous timing of land auctions, we show that higher land premiums increase transaction prices and volumes of nearby houses. 
-Furthermore, developers with nearby land stocks consistently pay higher premiums in the land auctions. 
-We exploit a policy reform and implement various tests to support the hypothesis that developers strategically influence homebuyers’ expectations. """
+abstract: |
+  This paper examines households’ extrapolative behaviors and developers’ strategic responses in China's land and housing markets.
+  Our stylized model predicts that when households extrapolate in the housing market, developers with nearby
+  land holdings strategically bid higher, anticipating rising housing prices to boost the value of their existing stock.
+  Using the exogenous timing of land auctions, we show that higher land premiums increase transaction prices and volumes of nearby houses. 
+  Furthermore, developers with nearby land stocks consistently pay higher premiums in the land auctions. 
+  We exploit a policy reform and implement various tests to support the hypothesis that developers strategically influence homebuyers’ expectations.
 
 # Summary. An optional shortened abstract.
 summary: "Revise and Resubmit at Journal of Urban Economics"

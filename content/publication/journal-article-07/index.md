@@ -20,19 +20,20 @@ publication_types: ["3"]
 publication: "Games and Economic Behavior"
 publication_short: "GEB"
 
-abstract: """We conduct a laboratory school-choice experiment in which admission cut-offs arise endoge-
-nously, testing correlation neglect in school choice settings. Relative to Rees-Jones et al. (2024)
-which fixes thresholds ex ante, we show that correlation neglect persists in complex school-choice
-environments. We evaluate three debiasing tools. First, we provide a reminder highlighting that
-admission outcomes are correlated. Second, we offer an algorithmic aid that supplies personal-
-ized admission probabilities, reducing the burden of Bayesian updating. Third, we implement
-an iterative deferred-acceptance mechanism that reveals rejection outcomes sequentially, sim-
-plifying contingent reasoning. The reminder has no effect. Providing personalized probabilities
-substantially reduces aggressive applications, but the reduction does not vary with the severity of
-correlation neglect. In contrast, the iterative mechanism directly attenuates correlation-neglect
-errors, especially when correlated risks are large. These findings inform the ongoing global
-reform of centralized admissions systems and suggest that both informational and structural
-interventions deserve policy attention."""
+abstract: |
+  We conduct a laboratory school-choice experiment in which admission cut-offs arise endoge-
+  nously, testing correlation neglect in school choice settings. Relative to Rees-Jones et al. (2024)
+  which fixes thresholds ex ante, we show that correlation neglect persists in complex school-choice
+  environments. We evaluate three debiasing tools. First, we provide a reminder highlighting that
+  admission outcomes are correlated. Second, we offer an algorithmic aid that supplies personal-
+  ized admission probabilities, reducing the burden of Bayesian updating. Third, we implement
+  an iterative deferred-acceptance mechanism that reveals rejection outcomes sequentially, sim-
+  plifying contingent reasoning. The reminder has no effect. Providing personalized probabilities
+  substantially reduces aggressive applications, but the reduction does not vary with the severity of
+  correlation neglect. In contrast, the iterative mechanism directly attenuates correlation-neglect
+  errors, especially when correlated risks are large. These findings inform the ongoing global
+  reform of centralized admissions systems and suggest that both informational and structural
+  interventions deserve policy attention.
 
 # Summary. An optional shortened abstract.
 summary: "Revise and Resubmit at Games and Economic Behavior"

@@ -22,16 +22,17 @@ publication_types: ["2"]
 publication: "Economics of Education Review, 68 (2019): 27-37."
 publication_short: "Economics of Education Review"
 
-abstract: """This paper provides empirical evidence on how China’s transition from the Boston mechanism to the Chinese
-parallel mechanism (a simplified version of the Deferred Acceptance mechanism), along with changes to the
-information available to students on their entrance exam performance when they submit their college preferences,
-affect the academic match between colleges and students. Using data on students admitted to Chinese
-colleges from 2005 to 2011, we characterize the general patterns of mismatch between colleges and students
-based on students’ scores on China’s National College Entrance Exam and find evidence of substantial overmatch
-and undermatch. Results from a generalized difference-in-differences model indicate that switching from the
-Boston mechanism to the Chinese parallel mechanism lowered the probability of mismatch by approximately
-6%. Allowing students to submit their college preferences after learning their exam scores rather than before the
-exam reduced the probability of mismatch by 18%."""
+abstract: |
+  This paper provides empirical evidence on how China’s transition from the Boston mechanism to the Chinese
+  parallel mechanism (a simplified version of the Deferred Acceptance mechanism), along with changes to the
+  information available to students on their entrance exam performance when they submit their college preferences,
+  affect the academic match between colleges and students. Using data on students admitted to Chinese
+  colleges from 2005 to 2011, we characterize the general patterns of mismatch between colleges and students
+  based on students’ scores on China’s National College Entrance Exam and find evidence of substantial overmatch
+  and undermatch. Results from a generalized difference-in-differences model indicate that switching from the
+  Boston mechanism to the Chinese parallel mechanism lowered the probability of mismatch by approximately
+  6%. Allowing students to submit their college preferences after learning their exam scores rather than before the
+  exam reduced the probability of mismatch by 18%.
 
 # Summary. An optional shortened abstract.
 summary: "Economics of Education Review, 68 (2019): 27-37."

@@ -14,3 +14,7 @@ This workflow helps you quickly stage, commit, and push your changes to the mast
 3. Push to remote:
 // turbo
 `git push origin master`
+
+4. Open the website to verify changes:
+// turbo
+`open https://kprinceing.github.io/person-website/`
