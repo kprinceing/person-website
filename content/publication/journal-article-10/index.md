@@ -22,7 +22,7 @@ publication_short: ""
 abstract: "Poverty alleviation resettlement can reduce children's long-run educational attainment when the destination offers abundant low-skilled manufacturing jobs. We study a 1994 program in China that relocated mountain villagers to peri-urban manufacturing communities, exploiting a quasi-experiment in which fiscal constraints limited relocation to 19 of 95 planned villages. Resettlement reduces senior high school attendance by 9 percentage points, college attendance by 8 percentage points, and years of schooling by one-third to one-half of a year. The mechanism is an opportunity cost channel: nearby factory jobs raised returns to early workforce entry relative to continued schooling. Resettled children also develop occupational skills tightly aligned with the destination's manufacturing sector and are more likely to remain there as adults. These results contrast with the positive effects of relocations to lower-poverty neighborhoods and show that the impact of relocation on children hinges on the economic structure of the destination."
 
 # Summary. An optional shortened abstract.
-summary: "Poverty alleviation resettlement reduces children's long-run educational attainment when the destination offers abundant low-skilled manufacturing jobs, through an opportunity cost channel."
+summary: "**Under review**"
 tags:
 - Poverty Alleviation Resettlement
 - Children Development
