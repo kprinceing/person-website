@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor
+role: Associate Professor
 
 # Organizations/Affiliations
 organizations:
@@ -24,7 +24,6 @@ interests:
 - Returns to Education and School Choice
 - Poverty Alleviation and Resettlement Policy
 - Behavioral Decision-Making in Health and Education
-- Market Design and Mechanism Design
 
 education:
   courses:
