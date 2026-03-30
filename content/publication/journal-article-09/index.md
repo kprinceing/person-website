@@ -20,7 +20,7 @@ publication_types: ["3"]
 publication: ""
 publication_short: ""
 
-abstract: ""
+abstract: "Leveraging a Poverty-Alleviation Relocation program in China, we examine how an opportunity shock in childhood shapes adults' redistribution preferences. Using an unexpected capacity shortfall that left many pre-selected villages unrelocated, we identify the program's impacts. Surveying individuals who were under 20 during relocation, we find that relocated children now exhibit significantly weaker support for redistributive policies. We investigate two potential channels: realized upward mobility and changes in mobility beliefs. Actual income gains among the targeted poor are modest and imprecisely estimated, but the program dramatically reshapes perceived mobility---relocated respondents roughly double their perceived probability that a poor child can reach the top of the income distribution, both unconditionally and when considering a child who works hard. Our findings suggest that opportunity-expanding programs can durably alter political attitudes primarily by reshaping the beliefs from which redistribution preferences emerge."
 
 # Summary. An optional shortened abstract.
 summary: "**Under review**"
