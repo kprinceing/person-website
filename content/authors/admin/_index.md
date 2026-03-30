@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Associate Professor
+role: Professor
 
 # Organizations/Affiliations
 organizations:
@@ -21,8 +21,10 @@ organizations:
 bio: My research areas are education and health economics, with a focus on how individuals deviate from rationality when making decisions in education and healthcare contexts.
 
 interests:
-- Health Economics
-- Education Economics
+- Returns to Education and School Choice
+- Poverty Alleviation and Resettlement Policy
+- Behavioral Decision-Making in Health and Education
+- Market Design and Mechanism Design
 
 education:
   courses:
