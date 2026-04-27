@@ -14,11 +14,11 @@ publishDate: "2025-08-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "*Journal of Urban Economics*"
+publication_short: "*JUE*"
 
 abstract: |
   This paper examines households’ extrapolative behaviors and developers’ strategic responses in China's land and housing markets.
@@ -29,11 +29,8 @@ abstract: |
   We exploit a policy reform and implement various tests to support the hypothesis that developers strategically influence homebuyers’ expectations.
 
 # Summary. An optional shortened abstract.
-summary: "Revise and Resubmit at **Journal of Urban Economics**"
-
+summary: "Accepted at **Journal of Urban Economics**"
 tags:
-- 
-
 # links:
 # - name: ""
 url: ""
@@ -65,5 +62,5 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides:
+slides: ""
 ---
