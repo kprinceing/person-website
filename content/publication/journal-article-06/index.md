@@ -5,10 +5,10 @@ authors:
 - Wei Shi
 - admin
 - Weizeng Sun
-date: "2025-08-01T00:00:00Z"
+date: "2026-05-01T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-08-01T00:00:00Z"
+publishDate: "2026-05-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -29,12 +29,15 @@ abstract: |
   We exploit a policy reform and implement various tests to support the hypothesis that developers strategically influence homebuyers’ expectations.
 
 # Summary. An optional shortened abstract.
-summary: "Accepted at **Journal of Urban Economics**"
+summary: "**Journal of Urban Economics**, 153 (2026): 103864."
+
+doi: "10.1016/j.jue.2026.103864"
+
 tags:
 # links:
 # - name: ""
 url: ""
-url_pdf: 'files/Land_auction_ms.pdf'
+url_pdf: 'files/jue.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
