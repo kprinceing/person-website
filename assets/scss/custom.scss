@@ -1,4 +1,4 @@
-/* Custom SCSS for layout compression & premium academic aesthetic */
+/* Custom SCSS for layout compression, glassmorphism, & premium graphical transitions */
 
 body {
   font-family: 'Inter', system-ui, -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif !important;
@@ -13,12 +13,46 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.01em;
 }
 
+/* 1. Animated Ambient Gradient Mesh Hero Background */
+.wg-about {
+  position: relative;
+  background: linear-gradient(135deg, #FAF9F6 0%, #F1F5F9 50%, #E2E8F0 100%) !important;
+  overflow: hidden;
+  z-index: 1;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(30, 58, 138, 0.04) 0%, transparent 50%),
+                radial-gradient(circle, rgba(147, 197, 253, 0.05) 0%, transparent 40%),
+                radial-gradient(circle, rgba(253, 224, 71, 0.02) 0%, transparent 60%);
+    animation: gradientPulse 25s infinite alternate ease-in-out;
+    z-index: -1;
+  }
+}
+
+@keyframes gradientPulse {
+  0% {
+    transform: translate(0, 0) rotate(0deg) scale(1);
+  }
+  50% {
+    transform: translate(4%, 8%) rotate(180deg) scale(1.08);
+  }
+  100% {
+    transform: translate(-4%, -4%) rotate(360deg) scale(0.96);
+  }
+}
+
 .home-section {
-  padding: 4rem 0 !important; /* Elegant spacing between home sections */
+  padding: 4.5rem 0 !important; /* Elegant spacing between home sections */
 }
 
 .section-heading h1 {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 1.75rem !important;
   font-size: 2.25rem !important;
   position: relative;
   display: inline-block;
@@ -28,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     left: 0;
     bottom: -8px;
-    width: 40px;
+    width: 45px;
     height: 3px;
     background-color: #1E3A8A; /* Soft accent line under section titles */
     border-radius: 2px;
@@ -39,21 +73,36 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2rem 0.5rem !important;
 }
 
-/* Premium Publication Card Designs */
+/* 2. Glassmorphism Navigation Bar */
+#navbar-main {
+  background: rgba(250, 249, 246, 0.8) !important;
+  backdrop-filter: blur(20px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
+  border-bottom: 1px solid rgba(30, 58, 138, 0.06) !important;
+  position: sticky !important;
+  top: 0;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+/* 3. Glassmorphic Publication Cards */
 .media.stream-item {
   position: relative;
   padding: 1.75rem !important;
-  background: #ffffff !important;
-  border: 1px solid rgba(0, 0, 0, 0.04) !important;
+  background: rgba(255, 255, 255, 0.7) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(30, 58, 138, 0.05) !important;
   border-radius: 16px !important;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.01), 0 2px 8px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 4px 20px -2px rgba(30, 58, 138, 0.02), 0 2px 6px -1px rgba(30, 58, 138, 0.02) !important;
   transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
   margin-bottom: 1.5rem !important;
   
   &:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 12px 20px -3px rgba(0, 0, 0, 0.04), 0 4px 10px -4px rgba(0, 0, 0, 0.04);
-    border-color: rgba(30, 58, 138, 0.12) !important;
+    transform: translateY(-4px) scale(1.002);
+    background: rgba(255, 255, 255, 0.95) !important;
+    border-color: rgba(30, 58, 138, 0.15) !important;
+    box-shadow: 0 20px 30px -10px rgba(30, 58, 138, 0.06), 0 8px 16px -8px rgba(30, 58, 138, 0.04) !important;
   }
   
   .article-title {
@@ -86,7 +135,121 @@ h1, h2, h3, h4, h5, h6 {
   color: #64748B !important;
 }
 
-/* Refined Pill Tags & Links */
+/* 4. Graphical Grid for Interests */
+.ul-interests {
+  padding-left: 0 !important;
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 1rem !important;
+  list-style: none !important;
+  
+  li {
+    position: relative;
+    padding: 1rem 1.25rem 1rem 2.75rem !important;
+    background: rgba(255, 255, 255, 0.8) !important;
+    border-radius: 12px !important;
+    border-left: 4px solid #1E3A8A !important;
+    font-weight: 500 !important;
+    color: #1e293b !important;
+    font-size: 0.95rem !important;
+    box-shadow: 0 2px 8px -2px rgba(30, 58, 138, 0.03) !important;
+    transition: all 0.2s ease !important;
+    
+    &::before {
+      content: '✦';
+      position: absolute;
+      left: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #1E3A8A;
+      font-size: 1.1rem;
+    }
+    
+    &:hover {
+      transform: translateX(4px);
+      background: #ffffff !important;
+      box-shadow: 0 8px 16px -4px rgba(30, 58, 138, 0.06) !important;
+      border-left-color: #3B82F6 !important;
+    }
+  }
+}
+
+/* 5. Chronological Scholarly Education Timeline */
+.ul-edu {
+  padding-left: 1rem !important;
+  position: relative !important;
+  list-style: none !important;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    left: 3px;
+    top: 8px;
+    bottom: 8px;
+    width: 2px;
+    background: rgba(30, 58, 138, 0.15); /* Sleek vertical timeline connection line */
+  }
+  
+  li {
+    position: relative !important;
+    padding-left: 2rem !important;
+    margin-bottom: 2rem !important;
+    
+    .fa-li {
+      display: none !important; /* Hide default icon alignment list styles */
+    }
+    
+    &::before {
+      content: '';
+      position: absolute;
+      left: -2px;
+      top: 13px;
+      width: 10px;
+      height: 10px;
+      background: #ffffff;
+      border: 2px solid #1E3A8A;
+      border-radius: 50%;
+      z-index: 2;
+      transition: all 0.2s ease;
+    }
+    
+    .description {
+      background: rgba(255, 255, 255, 0.55) !important;
+      padding: 0.75rem 1.25rem !important;
+      border-radius: 12px !important;
+      border: 1px solid rgba(30, 58, 138, 0.04) !important;
+      transition: all 0.2s ease !important;
+      
+      .course {
+        font-weight: 600 !important;
+        color: #1e293b !important;
+        margin-bottom: 0.15rem !important;
+        font-size: 0.95rem !important;
+      }
+      
+      .institution {
+        color: #64748B !important;
+        font-size: 0.85rem !important;
+        margin-bottom: 0 !important;
+      }
+    }
+    
+    &:hover {
+      &::before {
+        background: #1E3A8A;
+        transform: scale(1.3);
+        box-shadow: 0 0 0 4px rgba(30, 58, 138, 0.1);
+      }
+      .description {
+        background: #ffffff !important;
+        border-color: rgba(30, 58, 138, 0.12) !important;
+        box-shadow: 0 8px 20px -6px rgba(30, 58, 138, 0.06) !important;
+      }
+    }
+  }
+}
+
+/* 6. Refined Graphical Badges & Pills */
 .btn-links {
   padding-top: 0.5rem !important;
 }
@@ -112,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Smooth Abstract Accordion Toggle style */
+/* Smooth Abstract Accordion Toggle */
 .abstract-content {
   border-left: 3px solid #1E3A8A !important;
   background-color: #F8FAFC !important;
@@ -137,49 +300,83 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Grants list items styling */
+/* 7. Structured Graphic Grants Board */
 .wg-grants {
   ul {
     padding-left: 0 !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
     list-style: none !important;
   }
   
   li {
-    position: relative;
-    padding-left: 1.5rem !important;
-    margin-bottom: 1.5rem !important;
-    font-size: 1rem !important;
-    line-height: 1.6 !important;
-    color: #334155 !important;
+    position: relative !important;
+    padding: 1.25rem 1.5rem !important;
+    background: rgba(255, 255, 255, 0.7) !important;
+    border-radius: 12px !important;
+    border: 1px solid rgba(30, 58, 138, 0.05) !important;
+    border-left: 4px solid #1E3A8A !important;
+    box-shadow: 0 2px 6px rgba(30, 58, 138, 0.01) !important;
+    transition: all 0.25s ease !important;
+    margin-bottom: 0 !important; /* Reset old lists */
+    line-height: 1.5 !important;
     
     &::before {
-      content: '✦';
-      position: absolute;
-      left: 0;
-      color: #1E3A8A;
-      font-size: 0.8rem;
-      top: 2px;
+      display: none !important; /* Hide old bullet mark */
+    }
+    
+    strong {
+      color: #1e293b !important;
+      font-size: 1.05rem !important;
+      display: block !important;
+      margin-bottom: 0.4rem !important;
+    }
+    
+    &:hover {
+      transform: translateY(-2px);
+      background: #ffffff !important;
+      border-color: rgba(30, 58, 138, 0.12) !important;
+      box-shadow: 0 10px 20px -5px rgba(30, 58, 138, 0.05) !important;
     }
   }
 }
 
-/* Premium Dark Mode Styles */
+/* 8. Premium Graphic Dark-Ocean Aesthetics */
 body.dark {
-  background-color: #0F172A !important; /* Deep Navy Slate */
+  background-color: #0B0F19 !important; /* Inky Dark Ocean */
   color: #E2E8F0 !important;
   
   .section-heading h1::after {
     background-color: #cbd5e1;
   }
   
+  /* Dark Mode Hero Animated Canvas */
+  .wg-about {
+    background: linear-gradient(135deg, #0B0F19 0%, #0F172A 50%, #1E293B 100%) !important;
+    
+    &::before {
+      background: radial-gradient(circle, rgba(147, 197, 253, 0.04) 0%, transparent 50%),
+                  radial-gradient(circle, rgba(253, 224, 71, 0.01) 0%, transparent 40%);
+    }
+  }
+  
+  /* Dark Mode Frosted Glass Navbar */
+  #navbar-main {
+    background: rgba(11, 15, 25, 0.8) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+  }
+  
+  /* Dark Mode Frosted Glass Cards */
   .media.stream-item {
-    background: #1E293B !important; /* Rich Dark Slate Card */
-    border: 1px solid rgba(255, 255, 255, 0.04) !important;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.15);
+    background: rgba(30, 41, 59, 0.6) !important;
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.15) !important;
     
     &:hover {
-      border-color: rgba(255, 255, 255, 0.1) !important;
-      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.25);
+      background: rgba(30, 41, 59, 0.95) !important;
+      border-color: rgba(255, 255, 255, 0.12) !important;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.25) !important;
     }
     
     .article-title a {
@@ -199,6 +396,59 @@ body.dark {
     color: #64748B !important;
   }
   
+  /* Dark mode Grid layout for Interests */
+  .ul-interests li {
+    background: rgba(30, 41, 59, 0.6) !important;
+    border-left-color: #93C5FD !important;
+    color: #e2e8f0 !important;
+    
+    &::before {
+      color: #93C5FD;
+    }
+    
+    &:hover {
+      background: #1E293B !important;
+      border-left-color: #60A5FA !important;
+    }
+  }
+  
+  /* Dark mode Education Timeline */
+  .ul-edu {
+    &::before {
+      background: rgba(255, 255, 255, 0.1) !important;
+    }
+    
+    li {
+      &::before {
+        background: #0B0F19;
+        border-color: #93C5FD;
+      }
+      
+      .description {
+        background: rgba(30, 41, 59, 0.45) !important;
+        border: 1px solid rgba(255, 255, 255, 0.05) !important;
+        
+        .course {
+          color: #f8fafc !important;
+        }
+        .institution {
+          color: #94a3b8 !important;
+        }
+      }
+      
+      &:hover {
+        &::before {
+          background: #93C5FD;
+        }
+        .description {
+          background: #1E293B !important;
+          border-color: rgba(255, 255, 255, 0.1) !important;
+        }
+      }
+    }
+  }
+  
+  /* Dark mode Pill Badges & Buttons */
   .btn-outline-primary, .btn-links .btn {
     border-color: rgba(255, 255, 255, 0.15) !important;
     color: #cbd5e1 !important;
@@ -217,11 +467,19 @@ body.dark {
     color: #94A3B8 !important;
   }
   
+  /* Dark mode structured Grants Board */
   .wg-grants li {
-    color: #cbd5e1 !important;
+    background: rgba(30, 41, 59, 0.6) !important;
+    border-left-color: #93C5FD !important;
+    border-color: rgba(255, 255, 255, 0.05) !important;
     
-    &::before {
-      color: #93C5FD;
+    strong {
+      color: #f8fafc !important;
+    }
+    
+    &:hover {
+      background: #1E293B !important;
+      border-color: rgba(255, 255, 255, 0.1) !important;
     }
   }
 }
