@@ -1,0 +1,18 @@
+# Theme metadata
+name = "Premium"
+
+# Is theme light or dark?
+light = true
+
+# Primary brand accent: Oxford Navy
+primary = "#1E3A8A"
+
+# Menu styling
+menu_primary = "#FAF9F6"      # Soft warm off-white background
+menu_text = "#475569"         # Slate gray for unselected
+menu_text_active = "#1E3A8A"  # Active menu color matching our primary navy
+menu_title = "#1E293B"        # Brand title slate
+
+# Home sections
+home_section_odd = "#FAF9F6"  # Soft cream off-white
+home_section_even = "#F8FAFC" # Cool soft gray

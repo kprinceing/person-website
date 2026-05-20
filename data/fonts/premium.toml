@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Premium"
+
+# Google Fonts selection: Lora (headings) & Inter (body/nav) & JetBrains Mono (monospace)
+google_fonts = "Lora:ital,wght@0,400..700;1,400..700|Inter:wght@300..700|JetBrains+Mono:wght@400;500"
+
+# Font families
+heading_font = "Lora"
+body_font = "Inter"
+nav_font = "Inter"
+mono_font = "JetBrains Mono"
