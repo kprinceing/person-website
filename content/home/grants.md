@@ -59,7 +59,13 @@ subtitle = ""
  css_class = "wg-grants"
 +++
 
-- **National Natural Science General Grant (国家自然科学基金 一般项目)** No.72573095, 2026-2029, Principal Investigator
-- **Shandong Province Natural Science Grant (山东省自然科学基金 青年项目)** No.ZR2023QG082, 2024-2026, Principal Investigator
-- **National Natural Science General Grant (国家自然科学基金 一般项目)** Grant No.72473081, 2025-2028, Participating
-- **National Natural Science Foundation of China (国家自然科学基金 专项项目)** Grant No.72442002, 2025-2028, Participating
+### 主持 (Principal Investigator)
+
+- **National Natural Science General Grant (国家自然科学基金 一般项目)** No.72573095, 2026-2029
+- **Shandong Province Natural Science Grant (山东省自然科学基金 青年项目)** No.ZR2023QG082, 2024-2026
+
+### 参与 (Participating)
+
+- **National Social Science Fund Major Project (国家社科基金重大项目)** 《促进区域联动发展的基本内涵、实现路径与政策体系研究》, 批准号：26ZDA066, 2026-2028
+- **National Natural Science General Grant (国家自然科学基金 一般项目)** Grant No.72473081, 2025-2028
+- **National Natural Science Foundation of China (国家自然科学基金 专项项目)** Grant No.72442002, 2025-2028
