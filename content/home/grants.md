@@ -61,11 +61,11 @@ subtitle = ""
 
 ### 主持 (Principal Investigator)
 
-- **National Natural Science General Grant (国家自然科学基金 一般项目)** No.72573095, 2026-2029
-- **Shandong Province Natural Science Grant (山东省自然科学基金 青年项目)** No.ZR2023QG082, 2024-2026
+- **National Natural Science General Grant (国家自然科学基金 一般项目)** 《高考匹配机制改革，大语言模型和人力资本错配：理论和实证研究》, No.72573095, 2026-2029
+- **Shandong Province Natural Science Grant (山东省自然科学基金 青年项目)** 《高考录取制度改革和志愿填报：理论和实证研究》, No.ZR2023QG082, 2024-2026
 
 ### 参与 (Participating)
 
 - **National Social Science Fund Major Project (国家社科基金重大项目)** 《促进区域联动发展的基本内涵、实现路径与政策体系研究》, 批准号：26ZDA066, 2026-2028
-- **National Natural Science General Grant (国家自然科学基金 一般项目)** Grant No.72473081, 2025-2028
-- **National Natural Science Foundation of China (国家自然科学基金 专项项目)** Grant No.72442002, 2025-2028
+- **National Natural Science General Grant (国家自然科学基金 一般项目)** 《不对称财税体制改革激励机制与新一轮财税体制改革关键要素设计》, Grant No.72473081, 2025-2028
+- **National Natural Science Foundation of China (国家自然科学基金 专项项目)** 《动态视角下央地财政关系与地方自主财力提升机制研究》, Grant No.72442002, 2025-2028
