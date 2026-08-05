@@ -21,9 +21,9 @@ organizations:
 bio: My research areas are education and health economics, with a focus on how individuals deviate from rationality when making decisions in education and healthcare contexts.
 
 interests:
-- Returns to Education and School Choice
-- Poverty Alleviation and Resettlement Policy
-- Behavioral Decision-Making in Health and Education
+- Belief Formation and Decision-Making under Uncertainty
+- Education Choice and Matching Institutions
+- Place-Based Policy, Mobility, and Household Outcomes
 
 education:
   courses:
