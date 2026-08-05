@@ -6,7 +6,7 @@ authors:
 - Joy Chen
 - Sen Zhou
 date: "2020-01-01T00:00:00Z"
-doi: "https://doi.org/10.1016/j.jebo.2019.11.012"
+doi: "10.1016/j.jebo.2019.11.012"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2020-01-01T00:00:00Z"
@@ -25,9 +25,8 @@ abstract: "We examine the effect of media persuasion on educational choice, and 
 
 # Summary. An optional shortened abstract.
 summary: "**Journal of Economic and Behavior Organization**, 170(2020):1-19, lead article."
-
 tags:
-- Journal of Economic and Behavior Organization
+  - Journal of Economic and Behavior Organization
 featured: false
 
 # links:
@@ -61,5 +60,5 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides:
+slides: ""
 ---

@@ -4,7 +4,7 @@ authors:
 - admin
 - Douglas Barthold
 date: "2018-09-01T00:00:00Z"
-doi: "https://doi.org/10.1002/hec.3796"
+doi: "10.1002/hec.3796"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2018-09-01T00:00:00Z"
@@ -38,7 +38,7 @@ reduce drug expenditures by incentivizing the use of generic drugs."
 summary: "**Health Economics**, 27.11 (2018): 1717-1737."
 
 tags:
-- Health Economics
+  - Health Economics
 featured: fals
 
 # links:
@@ -72,5 +72,5 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides:
+slides: ""
 ---

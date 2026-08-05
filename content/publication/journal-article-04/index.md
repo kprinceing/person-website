@@ -3,7 +3,7 @@ title: "Noncognitive skills and gender gap in test scores"
 authors:
 - admin
 date: "2021-01-01T00:00:00Z"
-doi: "https://doi.org/10.1080/00036846.2021.1883189"
+doi: "10.1080/00036846.2021.1883189"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2021-01-01T00:00:00Z"
@@ -22,9 +22,8 @@ abstract: "This article studies gender gap patterns in language and math during 
 
 # Summary. An optional shortened abstract.
 summary: "**Applied Economics**, 53.29 (2021): 3423-3437"
-
 tags:
-- Applied Economics
+  - Applied Economics
 featured: false
 
 # links:
@@ -58,5 +57,5 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides:
+slides: ""
 ---

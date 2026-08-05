@@ -18,7 +18,7 @@ organizations:
   url: "https://www.econ.sdu.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research areas are education and health economics, with a focus on how individuals deviate from rationality when making decisions in education and healthcare contexts.
+bio: I study how people form beliefs and make decisions under uncertainty, and how education institutions and place-based policies reshape those choices and long-run outcomes.
 
 interests:
 - Belief Formation and Decision-Making under Uncertainty
@@ -67,4 +67,4 @@ user_groups:
 - Visitors
 ---
 
-Yan Song is an associate professor in Department of Economics, Shandong University. His research areas are education and health economics, with a focus on how individuals deviate from rationality when making decisions in education and healthcare contexts.
+Yan Song is an Associate Professor in the Department of Economics at Shandong University. His research asks how people form beliefs and make decisions under uncertainty—often with biased or incomplete information—and how institutions and place-based policies reshape those choices and their long-run outcomes. Much of this work focuses on education markets, especially school choice and college admissions, and extends to related decisions in health and housing using Chinese administrative and survey data.

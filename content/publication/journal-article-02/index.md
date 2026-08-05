@@ -7,7 +7,7 @@ authors:
 - Ji-liang Shiu
 - Sen Zhou
 date: "2019-09-01T00:00:00Z"
-doi: "https://doi.org/10.1016/j.econedurev.2018.12.004"
+doi: "10.1016/j.econedurev.2018.12.004"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2019-09-01T00:00:00Z"
@@ -36,9 +36,8 @@ abstract: |
 
 # Summary. An optional shortened abstract.
 summary: "**Economics of Education Review**, 68 (2019): 27-37."
-
 tags:
-- Economics of Education Review
+  - Economics of Education Review
 featured: false
 
 # links:
@@ -72,5 +71,5 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides:
+slides: ""
 ---

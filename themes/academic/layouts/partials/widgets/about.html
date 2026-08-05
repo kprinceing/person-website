@@ -23,10 +23,12 @@
     <div id="profile">
 
       {{ if site.Params.avatar.gravatar }}
-      <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=270')" alt="Avatar">
+      <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}"
+        src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=270')" alt="Avatar">
       {{ else if $avatar }}
       {{ $avatar_image := $avatar.Fill "270x270 Center" }}
-      <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $avatar_image.RelPermalink }}" alt="Avatar">
+      <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}"
+        src="{{ $avatar_image.RelPermalink }}" alt="Avatar">
       {{ end }}
 
       <div class="portrait-title">
@@ -36,8 +38,8 @@
         {{ range $person.organizations }}
         <h3>
           {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
-          <span>{{ .name }}</span>
-          {{ if .url }}</a>{{ end }}
+            <span>{{ .name }}</span>
+            {{ if .url }}</a>{{ end }}
         </h3>
         {{ end }}
       </div>
@@ -47,15 +49,15 @@
         {{ $pack := or .icon_pack "fas" }}
         {{ $pack_prefix := $pack }}
         {{ if in (slice "fab" "fas" "far" "fal") $pack }}
-          {{ $pack_prefix = "fa" }}
+        {{ $pack_prefix = "fa" }}
         {{ end }}
         {{ $link := .link }}
         {{ $scheme := (urls.Parse $link).Scheme }}
         {{ $target := "" }}
         {{ if not $scheme }}
-          {{ $link = .link | relLangURL }}
+        {{ $link = .link | relLangURL }}
         {{ else if in (slice "http" "https") $scheme }}
-          {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+        {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
         {{ end }}
         <li>
           <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
@@ -64,6 +66,33 @@
         </li>
         {{ end }}
       </ul>
+
+      {{/* Visible contact row for editors and collaborators */}}
+      {{ $email_link := "" }}
+      {{ $email_label := "" }}
+      {{ $cv_link := "" }}
+      {{ range $person.social }}
+        {{ if and (eq .icon "envelope") (hasPrefix .link "mailto:") }}
+          {{ $email_link = .link }}
+          {{ $email_label = strings.TrimPrefix "mailto:" .link }}
+        {{ end }}
+        {{ if eq .icon "cv" }}
+          {{ $cv_link = .link }}
+          {{ if not (urls.Parse .link).Scheme }}
+            {{ $cv_link = .link | relLangURL }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ if or $email_link $cv_link }}
+      <div class="profile-contact">
+        {{ with $email_link }}
+        <a class="profile-contact-email" href="{{ . | safeURL }}">{{ $email_label }}</a>
+        {{ end }}
+        {{ with $cv_link }}
+        <a class="btn btn-outline-primary btn-sm profile-contact-cv" href="{{ . | safeURL }}">Download CV</a>
+        {{ end }}
+      </div>
+      {{ end }}
 
     </div>
   </div>

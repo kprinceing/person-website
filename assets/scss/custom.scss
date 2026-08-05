@@ -73,6 +73,31 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2rem 0.5rem !important;
 }
 
+.profile-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.65rem;
+  margin-top: 1.1rem;
+}
+
+.profile-contact-email {
+  color: #1E3A8A !important;
+  font-size: 0.95rem !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  word-break: break-all;
+
+  &:hover {
+    text-decoration: underline !important;
+  }
+}
+
+.profile-contact-cv {
+  min-width: 8.5rem;
+}
+
+
 /* 2. Glassmorphism Navigation Bar */
 #navbar-main {
   background: rgba(250, 249, 246, 0.8) !important;

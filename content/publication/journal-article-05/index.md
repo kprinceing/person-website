@@ -5,7 +5,7 @@ authors:
 - Kentaro Tomoeda
 - Xiaoyu Xia
 date: "2021-02-01T00:00:00Z"
-doi: "http://dx.doi.org/10.2139/ssrn.3711118"
+doi: "10.2139/ssrn.3711118"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2021-02-12T00:00:00Z"
@@ -33,9 +33,8 @@ mechanism."
 
 # Summary. An optional shortened abstract.
 summary: "**Under review**"
-
 tags:
-- This paper supersedes our previously circulated draft Sophistication and Cautiousness in College Applications
+  - This paper supersedes our previously circulated draft Sophistication and Cautiousness in College Applications
 featured: false
 
 # links:
@@ -69,5 +68,5 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides:
+slides: ""
 ---
