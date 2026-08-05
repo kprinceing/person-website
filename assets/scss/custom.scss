@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .home-section {
-  padding: 4.5rem 0 !important; /* Elegant spacing between home sections */
+  padding: 2.25rem 0 !important; /* Tighter spacing between home sections */
 }
 
 .section-heading h1 {
@@ -302,6 +302,17 @@ h1, h2, h3, h4, h5, h6 {
 
 /* 7. Structured Graphic Grants Board */
 .wg-grants {
+  h3 {
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+    color: #1E3A8A !important;
+    margin: 1.5rem 0 1rem !important;
+
+    &:first-child {
+      margin-top: 0 !important;
+    }
+  }
+
   ul {
     padding-left: 0 !important;
     display: grid !important;
