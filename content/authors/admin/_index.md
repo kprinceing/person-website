@@ -67,4 +67,4 @@ user_groups:
 - Visitors
 ---
 
-Yan Song is an Associate Professor in the Department of Economics at Shandong University. His research asks how people form beliefs and make decisions under uncertainty—often with biased or incomplete information—and how institutions and place-based policies reshape those choices and their long-run outcomes. Much of this work focuses on education markets, especially school choice and college admissions, and extends to related decisions in health and housing using Chinese administrative and survey data.
+Yan Song is an Associate Professor in the Department of Economics at Shandong University. His research asks how people form beliefs and make decisions under uncertainty, and how institutions and place-based policies reshape those choices and their long-run outcomes. Much of this work focuses on education markets, especially school choice and college admissions, and extends to related decisions in health and housing using Chinese administrative and survey data.
