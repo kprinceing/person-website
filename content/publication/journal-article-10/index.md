@@ -5,10 +5,10 @@ authors:
 - Lue Zhan
 - admin
 - Di Xiang
-date: "2025-03-30T00:00:00Z"
+date: "2025-04-02T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-03-30T00:00:00Z"
+publishDate: "2025-04-02T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -17,13 +17,13 @@ publishDate: "2025-03-30T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
+publication: "Labour Economics"
 publication_short: ""
 
 abstract: "We study a 1994 program in China that relocated mountain villagers to peri-urban manufacturing communities, exploiting a quasi-experiment in which fiscal constraints limited relocation to 19 of 95 planned villages. Resettlement reduces senior high school attendance by 9 percentage points, college attendance by 8 percentage points, and years of schooling by up to half a year. The mechanism is opportunity cost: nearby factory jobs raised returns to early workforce entry relative to continued schooling. Resettled children develop skills aligned with destination manufacturing and are more likely to remain there as adults, showing that relocation effects hinge on destination economic structure."
 
 # Summary. An optional shortened abstract.
-summary: "**Under review**"
+summary: "Revise and Resubmit at **Labour Economics**"
 tags:
 - Poverty Alleviation Resettlement
 - Children Development
